@@ -56,6 +56,13 @@ To test the robustness of our model and evaluate the sensitivity of model output
 
 To illustrate, we compared two sets of infectious diseases: (1) Coronavirus (2) Ebola, which has almost the contrary transmission property. While the Covid19 is highly infectious and tends to be less fatal to human beings, the Ebola virus is rarely spotted but more deadly to our body.
 
+<p align="center">
+<img src="Images/Picture5.png" width="700" hight=”700“>
+</p>
+<p align="center">
+<img src="Images/Picture6.png" width="700" hight=”700“>
+</p>
+
 ### Covid-19: highly infectious and tends to be less fatal 
 From the three policies enforced on controlling coronavirus above, we see a consistent pattern that clearly the number of recovered cases is much larger than that of the death cases and the infectious cases increase rapidly and reach peak within around 50 days in all scenarios. To investigate the detail of each policy, we found the following differences:
 - Social distancing policy tends to be the most effective one in terms of controlling the total death number and slowing down the rapid infection of the virus. When increasing the social distancing power from 0% to 75%, we see a large drop of death cases from 3.3 million to just 0.5 million, and a quick control of infectious cases (no more new cases) from around day 100 to only day 50. This proves the great efficacy of social distancing strategy regarding controlling the spread of virus, namely demonstrating the effect of "flattening the curve".
