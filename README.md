@@ -57,10 +57,10 @@ To test the robustness of our model and evaluate the sensitivity of model output
 To illustrate, we compared two sets of infectious diseases: (1) Coronavirus (2) Ebola, which has almost the contrary transmission property. While the Covid19 is highly infectious and tends to be less fatal to human beings, the Ebola virus is rarely spotted but more deadly to our body.
 
 <p align="center">
-<img src="Images/Picture5.png" width="700" hight=”700“>
+<img src="Images/Picture5.png" width="800" hight=”800“>
 </p>
 <p align="center">
-<img src="Images/Picture6.png" width="700" hight=”700“>
+<img src="Images/Picture6.png" width="800" hight=”800“>
 </p>
 
 ### Covid-19: highly infectious and tends to be less fatal 
