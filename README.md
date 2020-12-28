@@ -26,11 +26,28 @@ We utilized 3 models to simulate the Covid-19 cases in New York State. Our basel
 ### 1.	Baseline SEIR Model 
 The SEIR model divides the population into 4 groups: Susceptible, people who were never infected or vaccinated; Exposed, people who were exposed to the virus and have not shown any symptoms; Infectious, people who are infectious and Recovered, people who are recovered.
 
+<p align="center">
+<img src="Images/Picture1.png" width="700" hight=”700“>
+</p>
+<p align="center">
+<img src="Images/Picture4.png" width="700" hight=”700“>
+</p>
+
+To simulate the SEIR process, for each person in S status, we simulate whether he will enter next stage with the probability of β; for each person in E status, we simulate whether he will enter next stage with the probability of σ; for each person in I status, we simulate whether he will enter next stage with the probability of γ. 
+
 ### 2.	SEIR-DH Model
 Based on the baseline SEIR model, we considered death and hospitalization factors, which aligns more with reality. In this model, we divided new infectious cases into two types: (I) critically ill patients who have strong symptoms and require urgent medical care like ICU treatment; (II) non-critical ill patients who have relatively mild symptoms. We sampled two types of infectious patients, based on a normal distribution of N(5%, 0.1%) as a critical illness ratio. 
 
+<p align="center">
+<img src="Images/Picture2.png" width="700" hight=”700“>
+</p>
+
 ### 3.	SEIR-DHV Model
 Finally, we want to measure the impact of vaccine injection on covid19 cases and predict how well the pandemic situation might improve after vaccines are allocated. We added two vaccine factors, i.e., vaccine injection date and vaccine proportion (v%)  to the previous model. At the vaccine injection date, the susceptible population is decreased by the proportion of vaccine injection ratio, leading less people to get infected later.
+
+<p align="center">
+<img src="Images/Picture3.png" width="700" hight=”700“>
+</p>
 
 
 ## Scenario Simulation
